@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-            get_headers('https://github.com/yTripper/php-1/tree/main')
+            print_r(get_headers('https://www.php.net/manual/ru/book.sqlite3.php', true));
         ?>
         <a href="index.html">Переход на 1 страницу</a>
     </body>
